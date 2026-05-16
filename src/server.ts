@@ -5,7 +5,6 @@ const port = config.port;
 
 const main = () => {
   initDb();
-
   app.listen(port, () => {
     console.log(`Example app listening on port ${port}`);
   });
