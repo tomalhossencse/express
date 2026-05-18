@@ -2,3 +2,57 @@
 Method =>  GET | Url =>  /api/users/1 | Time =>  1779104757446
 
 Method =>  GET | Url =>  /api/users | Time =>  1779104768603
+
+Method =>  GET | Url =>  /api/users | Time =>  1779105140903
+
+Method =>  GET | Url =>  /api/users/5 | Time =>  1779105146052
+
+Method =>  GET | Url =>  /api/users/6 | Time =>  1779105151005
+
+Method =>  GET | Url =>  /api/users/7 | Time =>  1779105159416
+
+Method =>  GET | Url =>  /api/users/7 | Time =>  1779105363455
+
+Method =>  GET | Url =>  /api/users | Time =>  1779105417744
+
+Method =>  GET | Url =>  /api/users | Time =>  1779105449438
+
+Method =>  GET | Url =>  /api/users | Time =>  1779105467648
+
+Method =>  GET | Url =>  /api/users | Time =>  1779105468964
+
+Method =>  GET | Url =>  /api/users | Time =>  1779105755767
+
+Method =>  GET | Url =>  /api/users | Time =>  1779105791998
+
+Method =>  GET | Url =>  /api/users | Time =>  1779105826317
+
+Method =>  GET | Url =>  /api/users | Time =>  1779105899855
+
+Method =>  GET | Url =>  /api/login | Time =>  1779106013880
+
+Method =>  GET | Url =>  /orders/1 | Time =>  1779106032313
+
+Method =>  POST | Url =>  /api/login | Time =>  1779106053191
+
+Method =>  POST | Url =>  /api/auth/login | Time =>  1779106070080
+
+Method =>  GET | Url =>  /api/users | Time =>  1779106151932
+
+Method =>  GET | Url =>  /api/users | Time =>  1779106173097
+
+Method =>  GET | Url =>  /api/users | Time =>  1779106242430
+
+Method =>  GET | Url =>  /api/auth/login | Time =>  1779106468955
+
+Method =>  GET | Url =>  /api/auth/login | Time =>  1779106478881
+
+Method =>  GET | Url =>  /api/users | Time =>  1779106506650
+
+Method =>  GET | Url =>  /api/users | Time =>  1779106538799
+
+Method =>  GET | Url =>  /api/users | Time =>  1779106563717
+
+Method =>  GET | Url =>  /api/users | Time =>  1779106597827
+
+Method =>  GET | Url =>  /api/users | Time =>  1779106608363
