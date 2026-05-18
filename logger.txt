@@ -1,0 +1,4 @@
+
+Method =>  GET | Url =>  /api/users/1 | Time =>  1779104757446
+
+Method =>  GET | Url =>  /api/users | Time =>  1779104768603

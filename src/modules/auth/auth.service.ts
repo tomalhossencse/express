@@ -3,6 +3,7 @@ import { pool } from "../../db";
 import type { IAuth } from "./auth.interface";
 import jwt from "jsonwebtoken";
 import config from "../../config";
+import type { IUser } from "../user/user.interface";
 
 const loginInUserIntoDB = async (payload: IAuth) => {
   const { email, password } = payload;
@@ -50,6 +51,22 @@ const loginInUserIntoDB = async (payload: IAuth) => {
   return { accessToken };
 };
 
+const registerUserIntoDB = async (payload: IUser) => {
+  const { email, password } = payload;
+  const hashPassword = await bcrypt.hash(password, 10);
+
+  const result = await pool.query(
+    `INSERT INTO users( email, password)
+    VALUES ($1, $2)
+    RETURNING *
+    `,
+    [email, hashPassword],
+  );
+  delete result.rows[0].password;
+  return result;
+};
+
 export const authService = {
   loginInUserIntoDB,
+  registerUserIntoDB,
 };

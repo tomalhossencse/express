@@ -19,6 +19,40 @@ const loginUser = async (req: Request, res: Response) => {
   }
 };
 
+const registerUser = async (req: Request, res: Response) => {
+  const result = await authService.registerUserIntoDB(req.body);
+  try {
+    res.status(201).json({
+      success: true,
+      message: "User created successfully",
+      data: result.rows[0],
+    });
+  } catch (error: any) {
+    res.status(500).json({
+      success: false,
+      message: error.message,
+      error,
+    });
+  }
+};
+
+// const updateUser = async (req: Request, res: Response) => {
+//   try {
+//     res.status(201).json({
+//       success: true,
+//       message: "User Update successfully",
+//       data: result.rows[0],
+//     });
+//   } catch (error) {
+//     res.status(500).json({
+//       success: false,
+//       message: error.message,
+//       error,
+//     });
+//   }
+// };
+
 export const authController = {
   loginUser,
+  registerUser,
 };
