@@ -56,3 +56,51 @@ Method =>  GET | Url =>  /api/users | Time =>  1779106563717
 Method =>  GET | Url =>  /api/users | Time =>  1779106597827
 
 Method =>  GET | Url =>  /api/users | Time =>  1779106608363
+
+Method =>  GET | Url =>  /api/users | Time =>  1779107021183
+
+Method =>  DELETE | Url =>  /api/users/9 | Time =>  1779107114648
+
+Method =>  GET | Url =>  /api/users/1 | Time =>  1779107131910
+
+Method =>  GET | Url =>  /api/users | Time =>  1779107137829
+
+Method =>  GET | Url =>  /api/users | Time =>  1779107408388
+
+Method =>  POST | Url =>  /api/users | Time =>  1779107445061
+
+Method =>  POST | Url =>  /api/users | Time =>  1779107459923
+
+Method =>  POST | Url =>  /api/auth/login | Time =>  1779107481438
+
+Method =>  GET | Url =>  /api/users | Time =>  1779107504725
+
+Method =>  GET | Url =>  /api/users | Time =>  1779107577121
+
+Method =>  GET | Url =>  /api/users | Time =>  1779107685530
+
+Method =>  GET | Url =>  /api/users | Time =>  1779107690526
+
+Method =>  DELETE | Url =>  /api/users/11 | Time =>  1779107869241
+
+Method =>  GET | Url =>  /api/users | Time =>  1779107884999
+
+Method =>  GET | Url =>  /api/users | Time =>  1779107907727
+
+Method =>  GET | Url =>  /api/users | Time =>  1779107920454
+
+Method =>  GET | Url =>  /api/users/11 | Time =>  1779107957483
+
+Method =>  GET | Url =>  /api/users/10 | Time =>  1779107974849
+
+Method =>  GET | Url =>  /api/users | Time =>  1779107983195
+
+Method =>  POST | Url =>  /api/users | Time =>  1779108007547
+
+Method =>  POST | Url =>  /api/auth/login | Time =>  1779108030076
+
+Method =>  GET | Url =>  /api/users | Time =>  1779108047070
+
+Method =>  PUT | Url =>  /api/users/12 | Time =>  1779108114316
+
+Method =>  GET | Url =>  /api/users | Time =>  1779108124316
