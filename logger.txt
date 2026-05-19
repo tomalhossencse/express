@@ -314,3 +314,7 @@ Method =>  GET | Url =>  /api/users | Time =>  1779182131887
 Method =>  GET | Url =>  /api/users | Time =>  1779182138379
 
 Method =>  GET | Url =>  /api/users | Time =>  1779182143954
+
+Method =>  POST | Url =>  /api/users | Time =>  1779182951306
+
+Method =>  POST | Url =>  /api/users | Time =>  1779183038992
