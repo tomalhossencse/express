@@ -132,3 +132,75 @@ Method =>  GET | Url =>  /api/users | Time =>  1779111901293
 Method =>  GET | Url =>  /api/users | Time =>  1779111933767
 
 Method =>  GET | Url =>  /api/users | Time =>  1779111995911
+
+Method =>  POST | Url =>  /api/users | Time =>  1779112475437
+
+Method =>  POST | Url =>  /api/users | Time =>  1779150533979
+
+Method =>  POST | Url =>  /api/users | Time =>  1779150573375
+
+Method =>  POST | Url =>  /api/users | Time =>  1779150670312
+
+Method =>  POST | Url =>  /api/users | Time =>  1779150715078
+
+Method =>  PUT | Url =>  /api/users/12 | Time =>  1779150788431
+
+Method =>  GET | Url =>  /api/users | Time =>  1779150802279
+
+Method =>  POST | Url =>  /api/auth/login | Time =>  1779150835568
+
+Method =>  GET | Url =>  /api/users | Time =>  1779150850835
+
+Method =>  PUT | Url =>  /api/users/1 | Time =>  1779150867116
+
+Method =>  GET | Url =>  /api/users | Time =>  1779150875272
+
+Method =>  PUT | Url =>  /api/users/1 | Time =>  1779150894387
+
+Method =>  PUT | Url =>  /api/users/1 | Time =>  1779151008639
+
+Method =>  PUT | Url =>  /api/users/1 | Time =>  1779151052349
+
+Method =>  PUT | Url =>  /api/users/1 | Time =>  1779151091141
+
+Method =>  PUT | Url =>  /api/users/1 | Time =>  1779151141305
+
+Method =>  PUT | Url =>  /api/users/1 | Time =>  1779151207686
+
+Method =>  GET | Url =>  /api/users | Time =>  1779151218120
+
+Method =>  GET | Url =>  /api/users | Time =>  1779151223813
+
+Method =>  GET | Url =>  /api/users | Time =>  1779151528830
+
+Method =>  GET | Url =>  /api/users | Time =>  1779151554356
+
+Method =>  GET | Url =>  /api/users | Time =>  1779151600486
+
+Method =>  GET | Url =>  /api/users | Time =>  1779151733195
+
+Method =>  POST | Url =>  /api/auth/login | Time =>  1779151890062
+
+Method =>  GET | Url =>  /api/users | Time =>  1779151905609
+
+Method =>  GET | Url =>  /api/users | Time =>  1779152030050
+
+Method =>  POST | Url =>  /api/auth/login | Time =>  1779152524730
+
+Method =>  GET | Url =>  /api/users | Time =>  1779152538942
+
+Method =>  GET | Url =>  /api/users | Time =>  1779152561781
+
+Method =>  POST | Url =>  /api/auth/login | Time =>  1779152573411
+
+Method =>  GET | Url =>  /api/users | Time =>  1779152588143
+
+Method =>  GET | Url =>  /api/users | Time =>  1779152595075
+
+Method =>  GET | Url =>  /api/users | Time =>  1779152873513
+
+Method =>  GET | Url =>  /api/users | Time =>  1779153045835
+
+Method =>  GET | Url =>  /api/users | Time =>  1779153049393
+
+Method =>  GET | Url =>  /api/users | Time =>  1779153237609

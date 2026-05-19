@@ -3,10 +3,12 @@ import { type NextFunction, type Request, type Response } from "express";
 import config from "../config";
 import { pool } from "../db";
 import type { IUser } from "../modules/user/user.interface";
+import type { ROLES } from "../types";
 
-const auth = () => {
+const auth = (...roles: ROLES[]) => {
   return async (req: Request, res: Response, next: NextFunction) => {
     try {
+      //   console.log(roles);
       // console.log("This is protected Route");
       // console.log(req.headers.authorization);
 
@@ -54,9 +56,17 @@ const auth = () => {
           message: "Forbidden!",
         });
       }
+      //   console.log(user.role);
+
+      if (roles.length && !roles.includes(user.role as ROLES)) {
+        res.status(403).json({
+          success: false,
+          message: "You are not allowed to access this resource!",
+        });
+      }
 
       req.user = decoded;
-      // console.log(user);
+
       next();
     } catch (error) {
       next(error);
