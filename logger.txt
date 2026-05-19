@@ -204,3 +204,13 @@ Method =>  GET | Url =>  /api/users | Time =>  1779153045835
 Method =>  GET | Url =>  /api/users | Time =>  1779153049393
 
 Method =>  GET | Url =>  /api/users | Time =>  1779153237609
+
+Method =>  POST | Url =>  /api/auth/login | Time =>  1779154674005
+
+Method =>  POST | Url =>  /api/auth/login | Time =>  1779154698534
+
+Method =>  POST | Url =>  /api/auth/login | Time =>  1779154763423
+
+Method =>  POST | Url =>  /api/auth/login | Time =>  1779154867205
+
+Method =>  POST | Url =>  /api/auth/login | Time =>  1779154954974

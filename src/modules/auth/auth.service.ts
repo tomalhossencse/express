@@ -49,7 +49,12 @@ const loginInUserIntoDB = async (payload: IAuth) => {
   const accessToken = jwt.sign(jwtPayload, config.secret as string, {
     expiresIn: "1d",
   });
-  return { accessToken };
+
+  const refreshToken = jwt.sign(jwtPayload, config.refresh_secret as string, {
+    expiresIn: "1d",
+  });
+
+  return { accessToken, refreshToken };
 };
 
 const registerUserIntoDB = async (payload: IUser) => {
