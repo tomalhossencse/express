@@ -7,8 +7,8 @@ import type { ROLES } from "../types";
 
 const auth = (...roles: ROLES[]) => {
   return async (req: Request, res: Response, next: NextFunction) => {
+    //   console.log(roles);
     try {
-      //   console.log(roles);
       // console.log("This is protected Route");
       // console.log(req.headers.authorization);
 

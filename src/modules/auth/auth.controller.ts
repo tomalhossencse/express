@@ -44,23 +44,30 @@ const registerUser = async (req: Request, res: Response) => {
   }
 };
 
-// const updateUser = async (req: Request, res: Response) => {
-//   try {
-//     res.status(201).json({
-//       success: true,
-//       message: "User Update successfully",
-//       data: result.rows[0],
-//     });
-//   } catch (error) {
-//     res.status(500).json({
-//       success: false,
-//       message: error.message,
-//       error,
-//     });
-//   }
-// };
+const refreshToken = async (req: Request, res: Response) => {
+  // console.log(req.cookies);
+
+  try {
+    const result = await authService.generateRefreshToken(
+      req.cookies.refreshToken,
+    );
+
+    res.status(200).json({
+      success: true,
+      message: "Access token generated!",
+      data: result,
+    });
+  } catch (error: any) {
+    res.status(500).json({
+      success: false,
+      message: error.message,
+      error: error,
+    });
+  }
+};
 
 export const authController = {
   loginUser,
   registerUser,
+  refreshToken,
 };
